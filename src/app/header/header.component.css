@@ -1,0 +1,12 @@
+/* Style the input container */
+.navbar {
+    background-color:rgb(39, 164, 223); 
+}
+.navbar .login-container {
+    float: right;
+}
+.navbar .navbar-header .navbar-brand {
+    color: rgb(78, 5, 72);
+    font-size: 26px;
+}
+  

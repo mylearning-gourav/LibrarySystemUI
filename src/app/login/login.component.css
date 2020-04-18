@@ -1,0 +1,22 @@
+/* Style the input field inside the navbar */
+.form-inline input {
+    padding: 5px;
+    margin: 2px;
+    font-size: 10px;
+    background-color: rgb(174, 210, 226);
+    border: none;
+    /*border-color:rgb(30, 32, 34);*/
+    width: 140px; /* adjust as needed (as long as it doesn't break the topnav) */
+}
+  
+  /* Style the button inside the input container */
+.form-inline button {
+    float: right;
+    padding: 2px;
+    margin: 2px;
+    font-size: 12px;
+    background-color: rgb(174, 210, 226);
+    border: none;
+    /*border-color:rgb(174, 210, 226);*/
+    cursor: pointer;
+}
