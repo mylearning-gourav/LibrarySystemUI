@@ -1,0 +1,26 @@
+body{
+    background-color: #525252;
+}
+.right-panel{
+    margin: 10px;
+}
+
+.right-panel .card{
+	background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+	/*box-shadow: rgba(0, 0, 0, 0.3) 10px 10px 10px;*/
+}
+
+.panel-heading {
+    background-color: rgb(39, 164, 223); 
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    color: rgba(255, 255, 255);
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 5px;
+    font-size: 14px;
+}

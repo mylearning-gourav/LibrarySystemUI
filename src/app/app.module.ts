@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
+import { SignupComponent } from './index/signup/signup.component';
 import { IndexComponent } from './index/index.component';
+import { IndexFeedbackListComponent } from './index/index-feedback-list/index-feedback-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { IndexComponent } from './index/index.component';
     FooterComponent,
     LoginComponent,
     SignupComponent,
-    IndexComponent
+    IndexComponent,
+    IndexFeedbackListComponent
   ],
   imports: [
     BrowserModule,
