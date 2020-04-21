@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="panel panel-default">
+        <div class="panel-heading rounded">New Arrivals</div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-3 book-overview"  *ngFor = "let newArrival of newArrivalBooks">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img [src]="newArrival.imagePath" 
+                            alt="{{ newArrival.name }}" class="img-responsive" 
+                            style="max-width: 70px;">
+                        </div>
+                        <div class="col-md-8">
+                            <h6 class="list-group-item-heading">{{ newArrival.name }}</h6>
+                            <p class="list-group-item-text">{{ newArrival.author }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

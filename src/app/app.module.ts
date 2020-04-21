@@ -9,6 +9,9 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './index/signup/signup.component';
 import { IndexComponent } from './index/index.component';
 import { IndexFeedbackListComponent } from './index/index-feedback-list/index-feedback-list.component';
+import { IndexNewArrivalListComponent } from './index/index-new-arrival-list/index-new-arrival-list.component';
+import { IndexTopRatedListComponent } from './index/index-top-rated-list/index-top-rated-list.component';
+import { IndexMostViewedListComponent } from './index/index-most-viewed-list/index-most-viewed-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { IndexFeedbackListComponent } from './index/index-feedback-list/index-fe
     LoginComponent,
     SignupComponent,
     IndexComponent,
-    IndexFeedbackListComponent
+    IndexFeedbackListComponent,
+    IndexNewArrivalListComponent,
+    IndexTopRatedListComponent,
+    IndexMostViewedListComponent
   ],
   imports: [
     BrowserModule,

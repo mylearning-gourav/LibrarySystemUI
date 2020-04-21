@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="panel panel-default">
+        <div class="panel-heading rounded">Top Rated</div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-3 book-overview"  *ngFor = "let topRated of topRatedBooks">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img [src]="topRated.imagePath" 
+                            alt="{{ topRated.name }}" class="img-responsive" 
+                            style="max-width: 70px;">
+                        </div>
+                        <div class="col-md-8">
+                            <h6 class="list-group-item-heading">{{ topRated.name }}</h6>
+                            <p class="list-group-item-text">{{ topRated.author }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
